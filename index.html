@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>Online Calculator</title>
+		<link rel="stylesheet" type="text/css" href="css/style.css">
+		<script src="js/main.js"></script>
+	</head>
+	<body>
+		<div align="center">
+			<a href="https://fontmeme.com/toy-story/"><img src="https://fontmeme.com/permalink/180926/3dca51aaf97e74fa118eb3a0a9f296bf.png" alt="toy-story" border="0"></a>
+			<!--<img alt="image did not load" id="calc_guide" src="images/paperClipGuy.jpg">-->
+			<p id="errorAlert"></p>
+			<div id="calculator">
+				<div id="calc_background">
+					<input id="screen_result" placeholder="0" disabled>
+					<div class="grid-container" id="button_wrap">
+						<button name="9" onClick="getNumber_9();">9</button>
+						<button name="8" onClick="getNumber_8();">8</button>
+						<button name="7" onClick="getNumber_7();">7</button>
+						<button name="/" onClick="divide();">/</button>
+						<button name="6" onClick="getNumber_6();">6</button>
+						<button name="5" onClick="getNumber_5();">5</button>
+						<button name="4" onClick="getNumber_4();">4</button>
+						<button name="*" onClick="multiply();">*</button>
+						<button name="3" onClick="getNumber_3();">3</button>
+						<button name="2" onClick="getNumber_2();">2</button>
+						<button name="1" onClick="getNumber_1();">1</button>
+						<button name="+" onClick="add();">+</button>
+						<button onClick="reset();">C</button>
+						<button name="0" onClick="getNumber_0();">0</button>
+						<button onClick="submit();">=</button>
+						<button name="-" onClick="subtract();">-</button>
+					</div>
+				</div>
+			</div>
+		</div>
+	</body>
+</html>

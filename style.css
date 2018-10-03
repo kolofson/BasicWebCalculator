@@ -1,0 +1,86 @@
+@charset "utf-8";
+/* CSS Document */
+
+body {
+	background-color: rgb(60, 90, 166);
+}
+
+button {
+	
+	height: 30px;
+	width: 70%;
+}
+
+input {
+	
+	text-align: right;
+	
+}
+#calculator {
+	
+	margin-top: 20px;
+	width: 20%;
+	height: 350px;
+	border: 5px solid black;
+	
+}
+
+#calc_background {
+	
+	padding: 20px;
+	margin-top: 0px;
+	width: 87%;
+	height: 310px;
+	background-color: rgba(189,193,193,1);
+}
+
+#screen_result {
+	
+	margin-top: 20px;
+	color: black;
+	font-size: 14pt;
+	line-height: 17px;
+	
+}
+
+#button_wrap {
+	
+	padding: 15px;
+	margin-left: -10px;
+	margin-top: 20px;
+	border: 7px solid blue;
+	height: 200px;
+	width: 91%;
+}
+
+#errorAlert {
+	
+	color: rgb(255, 0, 0);
+	font-size: 32pt;
+	
+}
+
+.grid-container {
+	
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  grid-row-gap: 5px;
+  grid-column-gap: 10px;
+  background-color: #2196F3;
+  
+}
+
+.grid-container>button {
+	
+  background-color: rgba(255, 255, 255, 0.8);
+  text-align: center;
+  padding:20px 0;
+  font-size: 15px;
+}
+
+
+@font-face {
+	
+	font-family: "Scooby-Doo";
+	src: url("../../../PhraseGenerator/fonts/scoobydoo.ttf");
+}
